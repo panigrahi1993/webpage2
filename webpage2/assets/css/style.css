@@ -1,0 +1,160 @@
+/* This line we have to written must,at any coast (select all(*) for margin,padding :0px, and box sizzing:border box */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Top head Section start..... */
+.tophead{
+    width:100%;
+
+    height: 40px;  
+    /* if we add 40% then it will showing all the border is green  */
+    /* but if i add 40px it will show only top part is green */
+
+    display: flex;
+    /* it Divide 2 part */
+
+    padding: 0px 100px;
+    /* Padding is used to create space around an element's content, inside of any defined borders */
+
+    justify-content: space-between;
+    /* it work the one in a Right side and other part is in left side */
+    /* and if we have more 2 line it work side by side */
+
+    align-items: center;
+    background-color:#509350   
+}
+
+.tophead ul li{
+    display: inline-block;
+    /* it take Divide line in a one line */
+    color: #ffffff;
+    margin: 0px 3px;
+
+}
+.tophead ul li a{
+    color:#79e379;
+}
+
+/* .....top head section End */
+
+/* Header section Start */
+header {
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    padding: 0px 100px;
+    line-height: 100px;
+    background-color: green;
+} 
+header h1{
+font-size: 50px;
+margin-right: 20px;
+}
+header h1, header h3{
+    display: inline-block;
+}
+/* Header section End */
+
+/* nav bar section start */
+
+nav ul li a{
+    width: 100%;
+    height: 100%;
+    color: #0a0e0a;
+    text-decoration: none;
+    /* it is for remove the underline of each word . */
+
+    font-weight: 500;
+    
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+    /* Space between the words */
+}
+nav{
+    width: 100%;
+    height: 30%;
+    color: #ffffff;
+    display: flex;
+    padding: 0px 100px;
+    
+    justify-content: space-between;
+    align-items: center;
+    line-height: 40px;
+    background-color: #5fb85f
+
+}
+nav ul li a:hover{
+    font-style: oblique;
+    font-size:small;
+}
+  
+/* nav bar section End */
+
+/* content section start */
+
+section{
+    width: 100%;
+    padding: 0px 100px;
+
+}
+section main {
+    background-color: #91c0c2;
+    width: 40%;
+    float: right;
+    padding: 25px 20px;
+}
+section aside{
+    width: 45%;
+    float: left;
+    padding-top: 40px;
+}
+main ul li {
+    font-weight: 600;
+    list-style: none;
+}
+
+main ul li ul li{
+    padding-left: 20px;
+    /* This is very important,  */
+    font-weight: normal;
+}
+
+/* content section end */
+
+/* footer section start */
+footer{
+    color:#ffffff;
+    width: 100%;
+    height: 100px;
+    background-color: #033e03;
+    display: flex;
+    padding: 0px 100px;
+    justify-content: space-between;
+    list-style: none;
+}
+.link ul{
+    list-style: none;
+}
+
+
+/* footer section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
