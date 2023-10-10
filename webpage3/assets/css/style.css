@@ -1,0 +1,182 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+/* Header  section start */
+    header{
+        width: 100vw;
+        height: 60px;
+        color:#ffffff;
+        display: flex;
+        /* it devide two part */
+        justify-content: space-between;
+        /* it keep the  two line in two ends */
+        align-items: center;
+        /* it keep the line in the center of border. */
+        padding: 0px 100px;
+        /* it gives the space of the line of border from left and right. */
+        background-color:#0B3383;
+    }
+/* Header section end */
+
+/* Banner section start */
+    .banner{
+        width: 100%;
+        height: 750px;
+        color: #ffffff;
+        display: flex;
+        padding: 0px 100px;
+        align-items: center;
+        justify-content: space-between;
+        background:linear-gradient(hsla(0, 55%, 25%, 0.5),rgba(165, 7, 7, 0.5)), url(../img/industrial.jpg);
+
+        /* Here "rbga" means r=red,g=green,b=blue,a=alpha */
+        /* the Range of red=0-255,green=0-255,blue=0-255,alpha= 0-1 */
+
+        background-size: cover;
+    }
+
+    .banner h1{
+        font-size: 55px;
+        font-weight: normal;
+    }
+    .banner h1 span{
+        font-size: 70PX;
+        font-size: 85px;
+        display: block;
+    }
+
+    .banner aside{
+        padding: 20px;
+        /* Padding is used for internal Gap */
+
+        border-radius: 6px;
+        text-align: center;
+        background: #022d7c;
+
+    }
+
+    .banner aside input[type],
+    .banner aside textarea,
+    .banner aside button
+    {
+        width: 100%;
+        height: 40px;
+        margin: 10px 10px;
+    }
+/* Banner section end .............*/
+
+
+/* Feature section start ..............*/
+      .feature{
+        width: 100%;
+        height: auto;
+        display: flex;
+        color:#022D7C;
+        padding: 60px 100px;
+        justify-content: space-between;
+      } 
+      
+      .feature div{
+        width: 30%;
+        height: 400px;
+      }
+
+      .feature div h2{
+        font-size: 40px;
+        margin-bottom: 7px;
+      }
+      .feature div img{
+        width: 450px;
+        height: 250px;
+      }
+       .feature div p{
+        margin-top: 7px;
+        font-size: 20px;
+        text-align: justify;
+       }
+
+/* Feature section end ................*/
+
+/* About Sectin Start */
+       .about{
+        width: 100%;
+        height: auto;
+        color: #ffffff;
+        text-align: center;
+        padding: 60px 100px;
+        background: #022D7C;
+       }
+       .about h2{
+        font-size: 35px;
+        margin-bottom: 7px;
+       }
+       .about p{
+        font-size: 18px;
+        font-weight: normal;
+       }
+       .about button{
+        color: #ffffff;
+        margin-top: 18px;
+        padding: 20px 120px;
+        font-weight: bold;
+        background:#022D7C;
+        border: 2px solid #ffffff;
+        border-radius: 5px;
+       }
+/* About Sectin End................ */
+
+/* Service section start.......... */
+     .service{
+        width:100% ;
+        height: auto;
+        padding: 1px 92px;
+        
+     }
+
+     .service .upper,.service .lower{
+        display:flex;
+        align-items: center;
+     }
+
+     .service .image , .service .content{
+        width: 50%;
+     }
+     .service .image img{
+        width:722px;
+        height: 650px;
+     
+    }/* Service section end................ */
+
+    /* Footer Section Start */
+    footer{
+        width: 100%;
+        height: 50px;
+        color: #ffffff;
+        padding: 10px 100px;
+        /* it show left - Right (10px) ,and top - bottom (100px) */
+        background: #022D7C;
+        text-align: center;
+        font-size:large;
+    }
+
+    /* Footer Section End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
